@@ -80,18 +80,18 @@
 @disabled-text-color: #999999;
 
 /* Notification */
-@notification-info-background-color: #e5f5fa;
-@notification-info-text-color: #0487c4;
-@notification-info-border-color: #b7e1f0;
-@notification-success-background-color: #eaf7ec;
-@notification-success-text-color: #349946;
-@notification-success-border-color: #c3e8ca;
+@notification-info-background-color: #e4eef7;
+@notification-info-text-color: #357fc0;
+@notification-info-border-color: #bcd6ec;
+@notification-success-background-color: #dfefc9;
+@notification-success-text-color: #72a230;
+@notification-success-border-color: #c7e3a1;
 @notification-warning-background-color: #fff4d9;
-@notification-warning-text-color: #0487c4;
-@notification-warning-border-color: #fff0c8;
-@notification-error-background-color: #ffe0d9;
-@notification-error-text-color: #ef470a;
-@notification-error-border-color: #ffb7a8;
+@notification-warning-text-color: #f28809;
+@notification-warning-border-color: #fcdab1;
+@notification-error-background-color: #f9e2e2;
+@notification-error-text-color: #d43f3a;
+@notification-error-border-color: #f0b9b8;
 
 /* ToolTip */
 @tooltip-text-color: #fff;
@@ -806,4 +806,10 @@ color: @primary-button-text-color;
 .k-calendar .k-footer .k-nav-today:active, .k-calendar .k-footer .k-nav-today:hover {
 background-color: @hover-background-color;
 text-decoration: none;
+}
+
+.k-widget.k-tooltip-validation {
+border-color: @notification-error-border-color;
+background-color: @notification-error-background-color;
+color: @notification-error-text-color;
 }

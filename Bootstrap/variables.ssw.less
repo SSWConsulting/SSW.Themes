@@ -9,9 +9,9 @@
 @gray-light: #CCC;
 @gray-lighter: #eee;
 @brand-primary: #cc4141;
-@brand-success: rgb(92, 184, 92);
-@brand-info: rgb(91, 192, 222);
-@brand-warning: rgb(240, 173, 78);
+@brand-success: #8dc63f;
+@brand-info: #448ccb;
+@brand-warning: #f7941d;
 @brand-danger: rgb(217, 83, 79);
 
 //== Scaffolding
@@ -392,18 +392,18 @@
 @jumbotron-font-size: ceil((@font-size-base * 1.5));
 
 //== Form states and alerts
-@state-success-text: rgb(60, 118, 61);
-@state-success-bg: rgb(223, 240, 216);
-@state-success-border: darken(spin(@state-success-bg, -10), 5%);
-@state-info-text: rgb(49, 112, 143);
-@state-info-bg: rgb(217, 237, 247);
-@state-info-border: darken(spin(@state-info-bg, -10), 7%);
-@state-warning-text: rgb(138, 109, 59);
-@state-warning-bg: rgb(252, 248, 227);
-@state-warning-border: darken(spin(@state-warning-bg, -10), 5%);
-@state-danger-text: rgb(169, 68, 66);
-@state-danger-bg: rgb(242, 222, 222);
-@state-danger-border: darken(spin(@state-danger-bg, -10), 5%);
+@state-success-text: darken(@btn-success-bg, 10%);
+@state-success-bg: lighten(@btn-success-bg, 35%);
+@state-success-border: darken(@state-success-bg, 10%);
+@state-info-text: darken(@btn-info-bg, 5%);
+@state-info-bg: lighten(@btn-info-bg, 40%);
+@state-info-border: darken(@state-info-bg, 10%);
+@state-warning-text: darken(@btn-warning-bg, 5%);
+@state-warning-bg: lighten(@btn-warning-bg, 55%);
+@state-warning-border: lighten(@btn-warning-bg, 30%);
+@state-danger-text: darken(@btn-danger-bg, 5%);
+@state-danger-bg: lighten(@btn-danger-bg, 35%);
+@state-danger-border: darken(@state-danger-bg, 10%);
 
 //== Tooltips
 
