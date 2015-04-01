@@ -7,3 +7,64 @@ a {
 }
 
 .nav a, .navbar-brand, a.btn {text-decoration: none;}
+
+.breadcrumb {background:transparent; padding: 0;}
+
+fieldset {
+    padding: 15px 0;
+    margin: 15px;
+    border: 1px solid #ccc;
+}
+
+label{
+    font-weight: normal;
+    color: #666;
+}
+
+legend {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    width: auto;
+    margin: 0 0 0 15px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+hr {
+border-top: 1px solid #ccc;
+}
+
+/*Feature Panel Red*/
+.panel-primary {
+    border-color: #cc4141;
+
+    &:hover {
+        border-color: darken( #cc4141, 10% );
+
+        .panel-heading {
+            background-color: darken( #cc4141, 10% );
+            border-color: darken( #cc4141, 10% );
+        }
+    }
+
+    .panel-heading {
+        color: #fff;
+        background-color: #cc4141;
+        border-color: #cc4141;
+
+        h4 {
+            color: #fff;
+            margin: 8px 0;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    .panel-body a{
+        text-decoration: underline;
+    }
+}
